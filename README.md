@@ -1,1 +1,3 @@
-# uksw_zajecia_3_hibernate
+UKSW - Java EE - Zajęcia 3
+
+Hibernate

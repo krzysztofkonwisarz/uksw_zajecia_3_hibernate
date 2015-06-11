@@ -12,4 +12,9 @@ public class Drzewo {
     @GeneratedValue
     private Long id;
 
+    private String gatunek;
+
+    public void setGatunek(String gatunek) {
+        this.gatunek = gatunek;
+    }
 }

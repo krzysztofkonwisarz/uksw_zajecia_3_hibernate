@@ -11,6 +11,7 @@ public class Aplikacja {
         session.beginTransaction();
 
         Drzewo drzewo = new Drzewo();
+        drzewo.setGatunek("Dąb");
         session.save(drzewo);
 
         session.getTransaction().commit();
